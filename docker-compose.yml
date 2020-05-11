@@ -24,7 +24,11 @@ services:
     environment:
       PRISMA_CONFIG: |
         port: 4466
+<<<<<<< HEAD
         managementApiSecret: ${PRISMA_MANAGEMENT_API_SECRET}
+=======
+        manegementApiSecret: ${PRISMA_MANAGEMENT_API_SECRET}
+>>>>>>> 3c6ada8635f3bf21e973048617076897f492de6c
         databases:
           default:
             connector: postgres
